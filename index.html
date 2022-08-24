@@ -1,10 +1,54 @@
----
-title: Assignment
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    Assignment
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./assets/style/all.css">
+
+</head>
+
+<body>
+  <form action="foryou.aspx">
+    
+      <nav class="d-flex flex-column justify-content-between bg-light">
+        <div>
+          <img src="assets/images/logo-ANSWER.svg" class="mb-32 p-32 pb-0" alt="LOGO">
+          <ul class="NavTab">
+            <li class="mb-4 ps-32"><a href="" class="text-decoration-none d-flex"><span
+                  class="material-icons me-3">assessment</span><span>Dashboard</span></a></li>
+            <li class="mb-4 ps-32"><a href="" class="text-decoration-none d-flex"><span
+                  class="material-icons me-3">question_answer</span><span>Question</span></a></li>
+            <li class="mb-4 ps-28 border-start border-success border-4"><a href="" class="text-decoration-none d-flex"><span
+                  class="material-icons me-3 text-success">assignment</span><span>Assignment</span></a></li>
+            <li class="mb-4 ps-32"><a href="" class="text-decoration-none d-flex"><span
+                  class="material-icons me-3">video_library</span><span>Course</span></a></li>
+            <li class="mb-4 ps-32"><a href="" class="text-decoration-none d-flex"><span
+                  class="material-icons me-3">people</span><span>Admin</span></a></li>
+            <li class="mb-4 ps-32"><a href="" class="text-decoration-none d-flex"><span
+                  class="material-icons me-3">settings</span><span>Settings</span></a></li>
+          </ul>
+        </div>
+        <div class="d-flex align-items-center">
+          <img src="assets/images/andychen.jpeg" class="Photo" alt="andychen">
+          <ul class="mb-0 ms-3 ps-0">
+            <li class="Name">Andy Chen</li>
+            <li class="Mail">andy0401@mail.com</li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="contents p-32">
+        
 <header class="flex-jcsb-aic">
     <span class="d-flex">
         <h1 class="me-50">Assignment</h1>
@@ -126,3 +170,15 @@ current: index
 
 
 </div>
+      </div>
+
+  </form>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>

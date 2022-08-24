@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(https://fonts.google.com/specimen/roboto+mono?query=robo);
+@import url(https://fonts.google.com/specimen/Lato);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  color: #212529; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-size: 24px;
+  line-height: 33px;
+  font-weight: bold; }
+
+img {
+  vertical-align: middle;
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+.DDL {
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background: url("../images/SelcArrow.png") #fff 95% center no-repeat;
+  background-size: 24px 24px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  color: #495057;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  padding-right: 33px; }
+
+.flex-jcsb-aic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.flex-jcsb-aifs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.traX-56 {
+  -webkit-transform: translateX(-56px);
+      -ms-transform: translateX(-56px);
+          transform: translateX(-56px); }
+
+.bor-1 {
+  border: 1px solid #CED4DA; }
+
+.bor-bottom-1 {
+  border-bottom: 1px solid #CED4DA; }
+
+.text-12-24 {
+  font-size: 12px;
+  line-height: 24px; }
+
+.text-14-21 {
+  font-size: 14px;
+  line-height: 21px; }
+
+.text-16-24 {
+  font-size: 16px;
+  line-height: 24px; }
+
+.me-16 {
+  margin-right: 16px; }
+
+.mb-22 {
+  margin-bottom: 22px; }
+
+.mb-32 {
+  margin-bottom: 32px; }
+
+.me-26 {
+  margin-right: 26px; }
+
+.ms-48 {
+  margin-left: 48px; }
+
+.me-50 {
+  margin-right: 50px; }
+
+.p-16 {
+  padding: 16px; }
+
+.ps-12 {
+  padding-left: 12px; }
+
+.p-12-16 {
+  padding: 12px 16px; }
+
+.ps-28 {
+  padding-left: 28px; }
+
+.p-32 {
+  padding: 32px; }
+
+.ps-32 {
+  padding-left: 32px; }
+
+.contents {
+  position: absolute;
+  left: 296px;
+  top: 0;
+  bottom: 0;
+  overflow: auto; }
+
+header {
+  margin-bottom: 44px; }
+
+.Photo {
+  width: 40px;
+  height: 40px;
+  -webkit-clip-path: circle(50% at center);
+          clip-path: circle(50% at center);
+  -o-object-fit: cover;
+     object-fit: cover; }
+
+.Name {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #212529; }
+
+.Mail {
+  font-size: 14px;
+  line-height: 24px;
+  color: #6C757D; }
+
+.Time {
+  font-size: 12px;
+  line-height: 24px;
+  color: #6C757D; }
+
+.AssList li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #CED4DA;
+  padding: 12px;
+  width: 320px; }
+  .AssList li div:last-child {
+    text-align: right; }
+  .AssList li span {
+    display: block; }
+
+.InfoBlock {
+  margin: 16px 32px 0 64px; }
+
+nav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 296px;
+  overflow: auto; }
+
+.NavTab li {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold; }
+
+/*# sourceMappingURL=all.css.map */
